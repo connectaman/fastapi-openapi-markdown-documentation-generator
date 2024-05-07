@@ -1,6 +1,8 @@
 # fastapi-openapi-markdown-documentation-generator 📜
 Streamlit Application to generate FastAPI Documentation from the OpenAPI specs and convert it into a markdown API documentation
 
+Try it out : https://fastapi-openapi-markdown-documentation-generator-d96hc549nb58e.streamlit.app 
+
 ### Overview
 
 This Streamlit-based application allows you to generate API documentation from an OpenAPI JSON string. It provides a user-friendly interface for generating documentation quickly and easily.
