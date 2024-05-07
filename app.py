@@ -33,7 +33,7 @@ def generate_api_docs(openapi_json: str) -> str:
     for path, methods in paths.items():
         for method, details in methods.items():
             markdown_content += f"\n### {details.get('summary', '')}\n"
-            markdown_content += f"\n{details.get('description', '')}\n"
+            markdown_content += f"\n\n{details.get('description', '')}\n\n"
             markdown_content += "| Method | URL |\n|--------|-----|\n"
             markdown_content += f"| {method.upper()} | {path} |\n"
             markdown_content += "\n#### Parameters\n"
