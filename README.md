@@ -12,7 +12,6 @@ This Streamlit-based application allows you to generate API documentation from a
 - Paste or upload OpenAPI JSON
 - Generate Markdown documentation
 - View and download documentation
-- Customizable footer
 
 ### Installation
 
